@@ -1,0 +1,103 @@
+html{
+    background-color: #A63534;
+     font-family: serif, monospace;
+    font-size: 20px;
+  }
+  /*h1 font properties*/
+  h1 {
+    font-family: 'Bebas Neue', cursive;
+    line-height: 1;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  h1 {
+    width: 200px;
+    height: 200px;
+    margin: 60px auto;
+    color: gold;
+    text-shadow: 2px 0px red;
+    box-shadow: 0px 0px 50px  25px #F7FDFE;
+    border-radius: 100px;
+    background-color: #F7FDFE;
+    border: 1px solid white;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h2 {
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+    text-align: center;
+    width: 650px;
+    margin: 0 auto;
+  }
+  
+  h3 {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px; 
+    text-decoration: underline;
+  }
+  
+  div {
+    border: 3px solid black;
+    border-radius: 15px;
+    text-align: center;
+    width: 1000px;
+    margin: 0px auto 20px;
+    background-color: #FFD700;
+    
+  }
+  
+  ul {
+    list-style-position: inside;
+  }
+  
+  ul.name > li {
+    background-color: #E5E4E2;
+    display: inline-block;
+    border: 1px solid black;
+    width: 150px;
+    margin:0 25px;
+  }
+  
+  .font {
+    display: default;
+    list-style-type:none;
+    font-size: 25px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  #bebas {
+    font-family:  'Bebas Neue', cursive;
+  }
+  
+  #bangers {
+    font-family: 'Bangers', cursive;
+  }
+  
+  #patrick {
+    font-family: 'Patrick Hand', cursive;
+  }
+  
+  #hrr {
+    background-color: #A63534;
+  }
+  
+  #gold {
+    background-color:gold;
+  }
+  
+  #rw {
+    background-color: #F7FDFE;
+  }
